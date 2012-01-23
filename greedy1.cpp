@@ -7,6 +7,7 @@
 #include <string>
 #include <cstring>
 #include <fstream>
+#include <sstream>
 
 #define PB push_back
 #define MP make_pair
@@ -22,7 +23,7 @@ inline double euc_dist(P p1, P p2){
 }
 
 int main(){
-    fstream cin("./eil51.tsp");
+    //fstream cin("./eil51.tsp");
     string str;
     vector<P> p;
     int index, x, y, num_node;
@@ -36,7 +37,8 @@ int main(){
 
     while(getline(cin,str)){
         if(str == "EOF") break;
-        cin >> index >> x >> y;
+        istringstream iss(str);
+        iss >> index >> x >> y;
         p.PB(MP(x,y));
     }
     num_node = p.size();
