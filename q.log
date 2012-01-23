@@ -1,0 +1,22 @@
+This is pTeXk, Version 3.141592-p3.1.10 (euc) (Web2C 7.5.6) (format=platex 2012.1.7)  23 JAN 2012 14:07
+ %&-line parsing enabled.
+**report_euc.
+(/usr/share/texmf/tex/latex/tools/q.tex
+pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2005/12/01> patch level 0)
+File ignored
+)
+! Emergency stop.
+<*> report_euc.
+               
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 7 strings out of 257674
+ 126 string characters out of 1941522
+ 47205 words of memory out of 1500000
+ 3262 multiletter control sequences out of 10000+200000
+ 7511 words of font info for 31 fonts, out of 1200000 for 2000
+ 14 hyphenation exceptions out of 8191
+ 4i,0n,1p,96b,7s stack positions out of 5000i,500n,6000p,200000b,15000s
+No pages of output.
